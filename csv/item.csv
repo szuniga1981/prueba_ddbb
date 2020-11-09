@@ -1,0 +1,9 @@
+id_producto,nombre_producto,id_categoria,valor_neto,precio_unitario
+1,cristal,1,990,1050
+2,escudo,3,790,1000
+3,royal_guard,3,1900,3500
+4,cusquena,1,2500,3000
+5,sol,1,1900,2100
+6,heineken,1,1500,1900
+7,budweiser,3,2000,2200
+8
