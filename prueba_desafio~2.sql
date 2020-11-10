@@ -72,7 +72,7 @@ create table item
     ADD FOREIGN KEY (numero_cliente) REFERENCES cliente(numero_cliente);
     
     
-    SELECT * FROM cat_item ;
+    SELECT * FROM factura,cliente,item ;
     
    -- ALTER TABLE cat_itemDROP COLUMN valor_neto;
  --ALTER TABLE cat_itemDROP COLUMN precio_unitario;
@@ -84,5 +84,7 @@ create table item
  select * from factura;
  select * from cliente;
  
+ insert into factura(numero_factura,numero_cliente,fecha)VALUES(
  
+ select numero_facura,numero_cliente,id_producto from factura,factura_item,item where
  
